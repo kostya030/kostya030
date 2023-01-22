@@ -1,0 +1,28 @@
+.student{
+	display: flex;
+	height: 300px;
+	border: 1px solid #000;
+}
+.student1{
+	flex: 1 1 40%;
+	position: relative;
+	height: 300px;
+	border: 1px solid #000;
+}
+.student1 img{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.student2{
+	padding: 20px;
+	flex: 1 1 60%;
+}
+
+.class1234:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
